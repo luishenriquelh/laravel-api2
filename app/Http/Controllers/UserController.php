@@ -8,21 +8,6 @@ use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
 {
-    // public function listUser()
-    // {
-    //     // $user = new User();
-    //     // $user->name = 'Luis Henrique';
-    //     // $user->email = 'luis.lhsn@gmail.com';
-    //     // $user->password = Hash::make('123456');
-    //     // $user->save(); 
-
-    //     // echo "<h1>Listagem de Usuário</h1>";
-    //     $user = User::where('id', '=', 1)->first();
-        
-    //     return view('listUser', [
-    //         'user' => $user
-    //     ]);
-    // }
 
     public function listarUsuario(User $user)
     {        
@@ -50,5 +35,21 @@ class UserController extends Controller
             'user' => $user
         ]);
     }  
+
+    // public function listUser()
+    // {
+    //     // $user = new User();
+    //     // $user->name = 'Luis Henrique';
+    //     // $user->email = 'luis.lhsn@gmail.com';
+    //     // $user->password = Hash::make('123456');
+    //     // $user->save(); 
+
+    //     // echo "<h1>Listagem de Usuário</h1>";
+    //     $user = User::where('id', '=', 1)->first();
+        
+    //     return view('listUser', [
+    //         'user' => $user
+    //     ]);
+    // }    
 
 }
