@@ -13,7 +13,28 @@
             }
         </style>
 <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
-    <div class="ml-4 text-lg leading-7 font-semibold"><h1>Detalhe do Usuário</h1></div>
-    <h3>Bom dia {{ $user->name }}, <br />o email cadastrado é {{ $user->email }}</h3>
+    <div class="ml-4 text-lg leading-7 font-semibold"><h1>Lista de Usuário</h1></div>
 
+    <table>
+        <tr>
+            <td>ID</td>
+            <td>nome</td>
+            <td>email</td>
+            <td>Acão</td>
+        </tr>
+        @foreach($users as $user)
+        <tr>
+            <td>{{ $user->id }}</td>
+            <td>{{ $user->name}}</td>
+            <td>{{ $user->email }}</td>
+            <td>
+                <a href="usuarios/{{ $user->id }}">Ver usuario</a>
+                <form action="">
+                    <input type="hidden" name="user" value="">
+                    <input type="submit" value="Remover">
+                </form>
+            </td>
+        </tr>
+        @endforeach
+    </table>
 </div>

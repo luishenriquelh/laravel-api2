@@ -25,8 +25,17 @@ Route::get('/sobre', function (){
 
 
 // Controller  - Usuarios
+Route::get('usuarios', 'UserController@listarTodosUsuarios')->name('listarTodosUsuarios');
+Route::get('usuarios/{user}', 'UserController@listarUsuario')->name('listarUsuario');
+
+
+
 Route::get('listar-usuario', [UserController::class, 'listarUsuario']);
 Route::get('cadastrar-usuario', [UserController::class, 'cadastrarUsuario']);
-Route::get('list-user', [UserController::class, 'listUser']);
+// Route::get('list-user', [UserController::class, 'listUser']);
+// Route::get('usuarios', 'Form\testController@listAllUsers')->name('users');
+
+
+
 
 
