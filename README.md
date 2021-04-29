@@ -9,8 +9,6 @@
 
 ## API em Laravel 8
 
-[![Build Status](https://travis-ci.org/Tony133/laravel-api-rest.svg?branch=master)](https://travis-ci.org/Tony133/laravel-api-rest)
-
 Simple example of a REST API with Laravel 8.x
 
 ## Install with Composer
@@ -36,6 +34,8 @@ Simple example of a REST API with Laravel 8.x
 
 ```
    $ php artisan migrate --seed
+```
+
 
 ## Learning Laravel
 
