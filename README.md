@@ -1,12 +1,6 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 <p align="center"><a href="https://laravel.com" target="_blank">API REST</a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
 ## API em Laravel 8
 
@@ -45,6 +39,21 @@ Esse é um API de Relação de Musicas com Laravel 8.x
 * Post POST Create `http://localhost:8000/api/musicas`
 * Post PUT Update `http://localhost:8000/api/musicas/1`
 * Post DELETE destroy `http://localhost:8000/api/musicas/1`
+
+<p align='center'>
+ :mailbox_with_no_mail: Contact <br><br>
+</p>
+<p align="center">
+    <a href="mailto:luishenriquelh.luis.lhsn@gmail.com">
+        <img src="https://img.shields.io/badge/gmail-D14836?&style=for-the-badge&logo=gmail&logoColor=white&link=mailto:luishenriquelh.luis.lhsn@gmail.com">
+    </a>
+    <a href="https://www.linkedin.com/in/luishenriquelh/">
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://instagram.com/luishenrique.sn">
+    <img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" />        
+  </a>
+<p>
 
 ## License
 
