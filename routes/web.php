@@ -11,6 +11,10 @@ Route::get('/sobre', function (){
     return view('site.sobre');
 });
 
+Route::get('/home', function(){
+    return view('home');
+});
+
 // Route::get('/tecnologias', function () {
 //     return view('site.tecnologias');
 // });
