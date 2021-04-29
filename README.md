@@ -6,26 +6,26 @@
 
 Esse é um API de Relação de Musicas com Laravel 8.x
 
-## Install with Composer
+## Instalar com Composer
 
 ```
     $ curl -s http://getcomposer.org/installer | php
     $ php composer.phar install or composer install
 ```
 
-## Set Environment
+## Definir ambiente
 
 ```
     $ cp .env.example .env
 ```
 
-## Set the application key
+## Defina a chave do aplicativo
 
 ```
    $ php artisan key:generate
 ```
 
-## Run migrations and seeds
+## Execute  migrations e seeds
 
 ```
    $ php artisan migrate --seed
@@ -54,6 +54,8 @@ Esse é um API de Relação de Musicas com Laravel 8.x
     <img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" />        
   </a>
 <p>
+    
+    ## Desenvolvido com :green_heart: por Luis Henrique
 
 ## License
 
