@@ -9,17 +9,35 @@
 
 ## Laravel 001
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+# Laravel Api Rest
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+[![Build Status](https://travis-ci.org/Tony133/laravel-api-rest.svg?branch=master)](https://travis-ci.org/Tony133/laravel-api-rest)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Simple example of a REST API with Laravel 8.x
+
+## Install with Composer
+
+```
+    $ curl -s http://getcomposer.org/installer | php
+    $ php composer.phar install or composer install
+```
+
+## Set Environment
+
+```
+    $ cp .env.example .env
+```
+
+## Set the application key
+
+```
+   $ php artisan key:generate
+```
+
+## Run migrations and seeds
+
+```
+   $ php artisan migrate --seed
 
 ## Learning Laravel
 
